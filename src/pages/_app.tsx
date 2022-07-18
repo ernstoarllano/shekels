@@ -1,4 +1,5 @@
 // src/pages/_app.tsx
+import '@fontsource/roboto-condensed'
 import { withTRPC } from '@trpc/next'
 import { SessionProvider } from 'next-auth/react'
 import type { AppType } from 'next/dist/shared/lib/utils'

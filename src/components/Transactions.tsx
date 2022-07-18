@@ -3,6 +3,8 @@ import Transaction from 'components/Transaction'
 const expenses = [
   { id: 1, vendor: "Trader Joe's", date: 'July 17', amount: 40 },
   { id: 2, vendor: 'Ulta', date: 'July 17', amount: 20 },
+  { id: 3, vendor: 'North Park Produce', date: 'July 16', amount: 60 },
+  { id: 4, vendor: 'Amazon', date: 'July 13', amount: 150 },
 ]
 
 const Transactions = () => {

@@ -5,7 +5,7 @@ import Overview from 'components/Overview'
 import Transactions from 'components/Transactions'
 import type { NextPage } from 'next'
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <Layout>
       <Header />
@@ -18,4 +18,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default HomePage

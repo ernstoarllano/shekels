@@ -1,13 +1,15 @@
 import Header from 'components/Header'
 import Layout from 'components/Layout'
+import Transactions from 'components/Transactions'
 import type { NextPage } from 'next'
 
-const Transactions: NextPage = () => {
+const TransactionsPage: NextPage = () => {
   return (
     <Layout>
       <Header />
+      <Transactions />
     </Layout>
   )
 }
 
-export default Transactions
+export default TransactionsPage

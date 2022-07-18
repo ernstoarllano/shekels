@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <main className="lg:grid lg:grid-cols-6 w-full lg:max-w-8xl lg:mx-auto lg:mt-20 bg-white rounded-lg shadow-sm overflow-hidden">
+    <main className="lg:grid lg:grid-cols-6 w-full lg:max-w-8xl lg:mx-auto lg:mt-5 bg-white rounded-lg shadow-sm overflow-hidden">
       <aside className="lg:flex lg:flex-col lg:col-span-1 lg:px-8 lg:py-10 bg-gray-100 space-y-16">
         <h1>
           <Link href="/">

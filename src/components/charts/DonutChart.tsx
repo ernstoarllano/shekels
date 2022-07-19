@@ -31,7 +31,7 @@ const DonutChart = ({ data }: DonutChartProps) => {
   }, [ref, arc, arcs])
 
   return (
-    <div>
+    <div className="relative">
       <svg ref={ref} className="w-full h-full" />
     </div>
   )

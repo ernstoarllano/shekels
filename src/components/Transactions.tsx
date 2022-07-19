@@ -1,4 +1,5 @@
 import Transaction from 'components/Transaction'
+import Link from 'next/link'
 
 const expenses = [
   { id: 1, vendor: "Trader Joe's", date: 'July 17', amount: 40 },
@@ -12,9 +13,11 @@ const Transactions = () => {
     <section className="p-6 bg-gray-100 rounded-lg">
       <div className="flex items-center justify-between mb-5">
         <h3 className="font-semibold">Transactions</h3>
-        <button className="px-3 py-2 text-sm font-medium text-blue-500 bg-white rounded-md shadow-sm">
-          View All
-        </button>
+        <Link href="/transactions">
+          <a className="px-3 py-2 text-sm font-medium text-blue-500 bg-white rounded-md shadow-sm">
+            View All
+          </a>
+        </Link>
       </div>
       <div className="space-y-3">
         {expenses.map((expense) => (
